@@ -40,6 +40,7 @@ public class SleepTrackerApp {
             SleepFunctions.countSleeplessNights
         )
     ));
+
     public static void main(String[] args) {
 
         try {
