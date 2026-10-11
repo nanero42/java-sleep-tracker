@@ -59,7 +59,7 @@ public class SleepTrackerApp {
             String message = container.message();
             Function<TreeMap<LocalDateTime, SleepingSession>, Object> func = container.func();
             Object result = func.apply(sleepLogData.units);
-            
+
             System.out.println(message + ": " + result);
         });
     }
