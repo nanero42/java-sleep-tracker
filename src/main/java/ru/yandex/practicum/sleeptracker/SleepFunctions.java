@@ -78,7 +78,7 @@ public final class SleepFunctions {
         if (owlCount == larkCount && owlCount == pigeonCount) {
             return "ГОЛУБЬ";
         }
-        
+
         if (owlCount > larkCount && owlCount > pigeonCount) {
             return "СОВА";
         } else if (larkCount > owlCount && larkCount > pigeonCount) {
