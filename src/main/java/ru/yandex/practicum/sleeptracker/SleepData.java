@@ -28,7 +28,7 @@ public final class SleepData {
 
     private static SleepingSession stringToUnit(String str) {
         String[] parts = str.split("\\s|\\;");
-        
+
         String[] sDate = parts[0].split("\\.");
         String[] sTime = parts[1].split("\\:");
         String[] fDate = parts[2].split("\\.");
